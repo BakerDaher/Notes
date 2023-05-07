@@ -1,0 +1,22 @@
+{
+  "lunch":"My_Notes",
+  "sign1": "Log in",
+  "sign2": "Login to start using app",
+  "email": "Email",
+  "passwerd":"Password",
+  "name": "Name" ,
+  "sign5": "Sin in",
+  "signup_1": "Don’t have an account ? ",
+  "signup_2": "Sign Up",
+  "home": "Home",
+  "setting": "Setting",
+  "logout": "LogOut",
+  "not" : "No Notes" ,
+  "title" : "Enter the title of your notes here",
+  "notes" : "Enter your Notes here" ,
+  "save" : "Save" ,
+  "lang" : "Change Language",
+  "change": "Change Passwerd",
+  "change1": "Change The Passwerd",
+  "check": "Sherch the email"
+}
