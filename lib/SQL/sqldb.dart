@@ -31,7 +31,7 @@ class sqlDB {
         join(datatbasepath, 'notes.sql'); //=> datatbasepath/not_onGreate
     // open the new_DB
     Database mydb = await openDatabase(path,
-        version: 6, onCreate: _onGreate, onUpgrade: _onUpgrade);
+        version:8, onCreate: _onGreate, onUpgrade: _onUpgrade);
     return mydb;
   }
 

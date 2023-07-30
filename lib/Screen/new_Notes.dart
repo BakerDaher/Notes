@@ -51,14 +51,13 @@ class _NewNotesState extends State<NewNotes> {
                       decoration: InputDecoration(
                           hintText: AppLocalizations.of(context)!.title  ,
                       ),
-
                     ),
                   ),
                   ElevatedButton(
                     onPressed: ()async{
                       await performSave() ;
-                    } ,
-                    child: Text(AppLocalizations.of(context)!.save ),
+                    },
+                    child: Text(AppLocalizations.of(context)!.save),
                   ) ,
                 ],
               ),
@@ -136,7 +135,6 @@ class _NewNotesState extends State<NewNotes> {
       Future.delayed( Duration(seconds:1) , () {
         Navigator.pop(context) ;
       });
-
     }else{
       await ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
